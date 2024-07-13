@@ -100,7 +100,8 @@ alias rm="rm -i"
 alias mkdir="mkdir -p"
 alias df="df -h"
 alias gs="git status"
-
+alias gc="git commit"
+alias ga="git add"
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
