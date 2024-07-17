@@ -106,6 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
+alias e="eza"
+alias ea="eza --all"
+alias ee="eza --all --long --header --icons --git"
 alias ll="ls -lh"
 alias rm="rm -i"
 alias mkdir="mkdir -p"
@@ -113,6 +116,8 @@ alias df="df -h"
 alias gs="git status"
 alias gc="git commit"
 alias ga="git add"
+alias glog="git log --all --graph --decorate"
+alias gckout="git checkout"
 alias vzsh="vim ~/.zshrc"
 alias szsh="source ~/.zshrc"
 alias bi="brew install"
@@ -169,3 +174,6 @@ source /Users/yl/.config/broot/launcher/bash/br
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# fzf shell integration config
+source <(fzf --zsh)
+
