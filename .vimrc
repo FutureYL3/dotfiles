@@ -115,6 +115,3 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 " vim-airline-themes config
 let g:airline_theme='badwolf'
-" rebind j to go up a line and k to go down a line
-nnoremap j k
-nnoremap k j
